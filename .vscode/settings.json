@@ -46,8 +46,7 @@
     "**/.cache": true,
     "**/.DS_Store": true,
     "**/.git": true,
-    "**/.idea": true,
-    "**/node_modules": true
+    "**/.idea": true
   },
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
