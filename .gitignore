@@ -173,3 +173,4 @@ dist
 .pnp.*
 
 companies.json
+companies/
