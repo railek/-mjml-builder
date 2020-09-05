@@ -4,14 +4,26 @@
   "version": "0.1.0",
   "author": "railek <jean@railek.com>",
   "license": "MIT",
+  "scripts": {
+    "create": "node ./scripts/index.js --create",
+    "build": "node ./scripts/index.js --build"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^2.20.3",
+    "glob": "^7.1.5",
+    "inquirer": "^7.0.4",
+    "mjml": "^4.5.1",
+    "mkdirp": "^0.5.5"
+  },
   "devDependencies": {
     "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-config-node": "4.1.0",
+    "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-import": "^2.20.0",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-prettier": "3.1.2",
-    "eslint": "7.2.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint": "^7.2.0",
     "prettier": "^1.19.1"
   }
 }
